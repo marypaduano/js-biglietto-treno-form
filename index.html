@@ -12,13 +12,14 @@
 
     <main>
         <section>
-            <input type="text" name="km" class="form-control mb-2" value="" placeholder="Numero di km da percorrere">
-                <select name="age" class="form-control mb-2" id="">
+            <input id="km" type="text" name="km" class="form-control mb-2" value="" placeholder="Numero di km da percorrere">
+                <select name="age" class="form-control mb-2" id="age">
                     <option value="">-- seleziona eta' --</option>
-                    <option value="young">meno di 18 anni</option>
-                    <option value="Senior">over 65</option>
+                    <option value="young">minorenne</option>
+                    <option value="senior">over 65</option>
+                    <option value="adult">maggiorenne</option>
                 </select>
-            <input type="button" class="btn btn-primary" value="totale">
+            <input type="button" class="btn btn-primary" id="printTicket" value="totale">
         </section>
     </main>
     
